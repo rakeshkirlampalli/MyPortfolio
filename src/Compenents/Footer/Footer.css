@@ -6,8 +6,8 @@
 .iconname{
     position: absolute;
     color: white;
-    top: 3.5rem;
-    left:12rem;
+    top: 4.5rem;
+    left:15rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .Footer-container{
@@ -66,8 +66,8 @@
     .iconname{
         position: absolute;
         font-size: 35px;
-        top: 4rem;
-        left: 3.8rem;
+        top: 3rem;
+        left: 3.5rem;
     }
     .mylogo{
         display: flex;

@@ -52,7 +52,7 @@
         width: 100%;
         margin-top: 10vh;
             /* margin-left: 5rem; */
-        height: 60vh;
+        height: 65vh;
          }
             .side-div {
                 width: 80%;
@@ -70,6 +70,17 @@
                 line-height: 1.4;
                 padding-left: 0;
                 padding-right: 0;
+            }
+            .side:hover{
+                transform: scale(2s);
+                transition:transform .6s ease-in-out;
+                background-color:#FFDBC3;
+                width: 100%;
+                margin-left: 0rem;
+                margin-right: 2rem;
+                /* margin-bottom: 1rem; */
+                border: none;
+                font-size: large;
             }
             
             
