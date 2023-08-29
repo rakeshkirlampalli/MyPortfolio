@@ -1,0 +1,79 @@
+.Footer-image{
+    width: 66%;
+    height: 10vh;
+    margin-top: 2rem;
+}
+.iconname{
+    position: absolute;
+    color: white;
+    top: 3.5rem;
+    left:12rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Footer-container{
+    width: 100%;
+    height: 45vh;
+    background-color: #FF9B9B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #A076F9;
+}
+.Footerdiv{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: space-around;
+}
+.quote{
+    height: 10vh;
+    color: white;
+    width: 100%;
+}
+.quoteslist{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px double white; */
+}
+#Footer-icons{
+    margin-top: 4rem;
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    font-size: xx-large;
+    color:white
+}
+/* .list-dot{
+    border: 3px dotted white;
+    height: 5vh;
+    text-align: center;
+} */
+@media (max-width: 769px) {
+    .Footer-container{
+        width: auto;
+        height: 35vh;
+    }
+    .Footer-image{
+        width: 40%;
+        height: 8vh;
+    }
+    .iconname{
+        position: absolute;
+        font-size: 35px;
+        top: 4rem;
+        left: 3.8rem;
+    }
+    .mylogo{
+        display: flex;
+    }
+    #Footer-icons{
+        margin-top: 8rem;
+        gap: 20px;
+    }
+}

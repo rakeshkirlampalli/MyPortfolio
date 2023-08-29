@@ -1,0 +1,29 @@
+.Deployingcontainer{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.deployment{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.click{
+    width: 5rem;
+    height: 1.5rem;
+    background-color: rgb(37, 243, 37);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
+@media (max-width: 480px) {
+    .Deployingcontainer{
+        padding: 5rem;
+        margin-top: 1rem;
+        width: auto;
+    }
+}

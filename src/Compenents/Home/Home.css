@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home-page{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color:  rgb(252, 253, 253);
+    /* background-color: black; */
+    flex-direction: column;
+    /* margin: 0 auto; */
+    /* width: 1366px; */
+}
+/* .content{
+    display: flex;
+    justify-content: space-around;
+} */
+.container-title{
+    color: coral;
+    /* color: red; */
+    text-align: center;
+    /* background-color: yellow; */
+}
+

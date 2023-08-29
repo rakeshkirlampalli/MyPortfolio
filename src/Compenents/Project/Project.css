@@ -1,0 +1,70 @@
+.Projects-container{
+     width: 100%;
+     height: 85vh;
+     /* background-color: */
+}
+.projects-div{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    /* background-color: yellow; */
+    gap: 6rem;
+   
+}
+.project-image{
+    width: 90%;
+    margin-top: 5rem;
+}
+.project-content{
+    width: 50%;
+    /* background-color: pink; */
+    margin-left: 5rem;
+    gap: 1rem;
+    /* color: rgb(32, 32, 250);
+     */
+     color: #5C4B99;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: lightseagreen; */
+}
+.project-imagediv{
+    width: 50%;
+}
+.list {
+    list-style-type: '⭐  '; 
+    /* This removes the default bullet points */
+  }
+ 
+.li{
+    padding-top: 30px;
+    /* color:#D8B4F8; */
+    color: #9288F8;
+}
+@media (max-width: 769px) {
+    .projects-div{
+
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     line-height:1;
+     gap: 0;
+     font-size: 12px;
+     align-items: center;
+     margin-top: 2rem;
+    }
+    .list{
+        gap: 0;    
+    }
+    .project-imagediv{
+        padding-left: 1rem;
+    }
+    .project-image{
+      width: 100%;
+      margin-top: 2rem;
+    }
+    .project-content{
+        margin-left: 0;
+    }
+    .Projects-container{
+        height: 70vh;
+    }
+}

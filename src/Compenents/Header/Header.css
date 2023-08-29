@@ -1,0 +1,58 @@
+.navbar button{
+   width: 5rem;
+   height: 2rem;
+   background-color:#EDE4FF;
+   border-radius: 1rem;
+   border: none;
+   font-size: medium;
+}
+button:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    background-color: #FFFEC4;
+  }
+  
+.Header{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    background-color:#A076F9;
+    /* background-color: #5A96E3; */
+    /* background-color: #FFD6A5; */
+    /* background-color: #FF2171; */
+    position: fixed;
+    z-index: 1;
+    padding-right: 1rem;
+    color: #313866;
+}  
+.navbar{
+    display: flex;
+    padding: 1rem 2rem;
+       gap: 1rem;
+    /* width: 45%; */
+}
+.logo{
+    width: 3rem;
+}
+
+@media (max-width: 769px) {
+  .Header{
+    width: 100%;
+    display: flex;
+    padding-left: 3rem;
+    justify-content: space-evenly;
+    position: fixed;
+  }
+   .navbar button{
+      width: 3.6rem;
+      height: 1.5rem;
+      font-size: 15px;
+      border-radius: .4rem;
+   }
+   
+
+}
