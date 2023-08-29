@@ -1,5 +1,5 @@
 
-import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {HashRouter as Router, Routes, Route } from "react-router-dom";
 import Enter from "./Compenents/Enterpage/Enter";
 import Home from "./Compenents/Home/Home";
 import './App.css'
@@ -16,11 +16,11 @@ const App = () => {
           <Route path="/home" element={<Home/>}/>
           <Route path="/Contact" element={<Contact/>}/>
           <Route path="/About" element={<About/>}/>  
-           <Route path="/Project" element={<Project/>}/>
+          <Route path="/Project" element={<Project/>}/>
         </Routes>
       </Router>
     </div>
-  );
+  )
 }
 
 export default App;
